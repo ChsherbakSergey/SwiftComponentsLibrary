@@ -22,6 +22,9 @@
 		E62BBB6F29E981B3006EF52B /* ProgressBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB6E29E981B3006EF52B /* ProgressBarViewController.swift */; };
 		E62BBB7129E981E2006EF52B /* StrokeProgressBarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB7029E981E2006EF52B /* StrokeProgressBarContentView.swift */; };
 		E62BBB7329E98204006EF52B /* StrokeProgressBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB7229E98204006EF52B /* StrokeProgressBarViewController.swift */; };
+		E62BBB7829E9E243006EF52B /* Components in Frameworks */ = {isa = PBXBuildFile; productRef = E62BBB7729E9E243006EF52B /* Components */; };
+		E62BBB7C29E9E522006EF52B /* ToastContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB7B29E9E522006EF52B /* ToastContentView.swift */; };
+		E62BBB7E29E9E53E006EF52B /* ToastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB7D29E9E53E006EF52B /* ToastViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,8 @@
 		E62BBB7029E981E2006EF52B /* StrokeProgressBarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeProgressBarContentView.swift; sourceTree = "<group>"; };
 		E62BBB7229E98204006EF52B /* StrokeProgressBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeProgressBarViewController.swift; sourceTree = "<group>"; };
 		E62BBB7529E98252006EF52B /* Components */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Components; sourceTree = "<group>"; };
+		E62BBB7B29E9E522006EF52B /* ToastContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastContentView.swift; sourceTree = "<group>"; };
+		E62BBB7D29E9E53E006EF52B /* ToastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E62BBB7829E9E243006EF52B /* Components in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +68,7 @@
 				E62BBB7429E98226006EF52B /* Packages */,
 				E62BBB3D29E97F86006EF52B /* SwiftComponentsLibrary */,
 				E62BBB3C29E97F86006EF52B /* Products */,
+				E62BBB7629E9E243006EF52B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +106,7 @@
 				E62BBB5629E98043006EF52B /* Outline */,
 				E62BBB5E29E980A3006EF52B /* ActivityIndicators */,
 				E62BBB6429E98127006EF52B /* Progresses */,
+				E62BBB7929E9E4E6006EF52B /* Toasts */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -192,6 +200,30 @@
 			path = Packages;
 			sourceTree = "<group>";
 		};
+		E62BBB7629E9E243006EF52B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E62BBB7929E9E4E6006EF52B /* Toasts */ = {
+			isa = PBXGroup;
+			children = (
+				E62BBB7A29E9E502006EF52B /* Toast */,
+			);
+			path = Toasts;
+			sourceTree = "<group>";
+		};
+		E62BBB7A29E9E502006EF52B /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				E62BBB7B29E9E522006EF52B /* ToastContentView.swift */,
+				E62BBB7D29E9E53E006EF52B /* ToastViewController.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -208,6 +240,9 @@
 			dependencies = (
 			);
 			name = SwiftComponentsLibrary;
+			packageProductDependencies = (
+				E62BBB7729E9E243006EF52B /* Components */,
+			);
 			productName = SwiftComponentsLibrary;
 			productReference = E62BBB3B29E97F86006EF52B /* SwiftComponentsLibrary.app */;
 			productType = "com.apple.product-type.application";
@@ -268,9 +303,11 @@
 				E62BBB5D29E98091006EF52B /* OutlineViewController+DataSource.swift in Sources */,
 				E62BBB7329E98204006EF52B /* StrokeProgressBarViewController.swift in Sources */,
 				E62BBB6B29E9818D006EF52B /* CircleProgressViewController.swift in Sources */,
+				E62BBB7C29E9E522006EF52B /* ToastContentView.swift in Sources */,
 				E62BBB7129E981E2006EF52B /* StrokeProgressBarContentView.swift in Sources */,
 				E62BBB6F29E981B3006EF52B /* ProgressBarViewController.swift in Sources */,
 				E62BBB6329E98101006EF52B /* GrowingCircleActivityIndicatorViewController.swift in Sources */,
+				E62BBB7E29E9E53E006EF52B /* ToastViewController.swift in Sources */,
 				E62BBB6129E980EB006EF52B /* GrowingCircleActivityIndicatorContentView.swift in Sources */,
 				E62BBB5929E98060006EF52B /* OutlineView.swift in Sources */,
 				E62BBB6929E9816F006EF52B /* CircleProgressContentView.swift in Sources */,
@@ -482,6 +519,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E62BBB7729E9E243006EF52B /* Components */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Components;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E62BBB3329E97F86006EF52B /* Project object */;
 }

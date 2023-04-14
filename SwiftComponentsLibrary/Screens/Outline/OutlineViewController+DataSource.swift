@@ -72,6 +72,15 @@ extension OutlineViewController {
                                 viewController: StrokeProgressBarViewController.self
                             )
                         ]
+                    ),
+                    OutlineItem(
+                        title: "Toasts",
+                        subitems: [
+                            OutlineItem(
+                                title: "Toast View",
+                                viewController: ToastViewController.self
+                            )
+                        ]
                     )
                 ]
             ),
