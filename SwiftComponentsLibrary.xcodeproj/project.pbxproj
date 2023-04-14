@@ -9,21 +9,40 @@
 /* Begin PBXBuildFile section */
 		E62BBB3F29E97F86006EF52B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB3E29E97F86006EF52B /* AppDelegate.swift */; };
 		E62BBB4129E97F86006EF52B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB4029E97F86006EF52B /* SceneDelegate.swift */; };
-		E62BBB4329E97F86006EF52B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB4229E97F86006EF52B /* ViewController.swift */; };
-		E62BBB4629E97F86006EF52B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62BBB4429E97F86006EF52B /* Main.storyboard */; };
 		E62BBB4829E97F87006EF52B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E62BBB4729E97F87006EF52B /* Assets.xcassets */; };
 		E62BBB4B29E97F87006EF52B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62BBB4929E97F87006EF52B /* LaunchScreen.storyboard */; };
+		E62BBB5929E98060006EF52B /* OutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB5829E98060006EF52B /* OutlineView.swift */; };
+		E62BBB5B29E9807B006EF52B /* OutlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB5A29E9807B006EF52B /* OutlineViewController.swift */; };
+		E62BBB5D29E98091006EF52B /* OutlineViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB5C29E98091006EF52B /* OutlineViewController+DataSource.swift */; };
+		E62BBB6129E980EB006EF52B /* GrowingCircleActivityIndicatorContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB6029E980EB006EF52B /* GrowingCircleActivityIndicatorContentView.swift */; };
+		E62BBB6329E98101006EF52B /* GrowingCircleActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB6229E98101006EF52B /* GrowingCircleActivityIndicatorViewController.swift */; };
+		E62BBB6929E9816F006EF52B /* CircleProgressContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB6829E9816F006EF52B /* CircleProgressContentView.swift */; };
+		E62BBB6B29E9818D006EF52B /* CircleProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB6A29E9818D006EF52B /* CircleProgressViewController.swift */; };
+		E62BBB6D29E981A9006EF52B /* ProgressBarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB6C29E981A9006EF52B /* ProgressBarContentView.swift */; };
+		E62BBB6F29E981B3006EF52B /* ProgressBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB6E29E981B3006EF52B /* ProgressBarViewController.swift */; };
+		E62BBB7129E981E2006EF52B /* StrokeProgressBarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB7029E981E2006EF52B /* StrokeProgressBarContentView.swift */; };
+		E62BBB7329E98204006EF52B /* StrokeProgressBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB7229E98204006EF52B /* StrokeProgressBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E62BBB3B29E97F86006EF52B /* SwiftComponentsLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftComponentsLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E62BBB3E29E97F86006EF52B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E62BBB4029E97F86006EF52B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E62BBB4229E97F86006EF52B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E62BBB4529E97F86006EF52B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E62BBB4729E97F87006EF52B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E62BBB4A29E97F87006EF52B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E62BBB4C29E97F87006EF52B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E62BBB5829E98060006EF52B /* OutlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineView.swift; sourceTree = "<group>"; };
+		E62BBB5A29E9807B006EF52B /* OutlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineViewController.swift; sourceTree = "<group>"; };
+		E62BBB5C29E98091006EF52B /* OutlineViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OutlineViewController+DataSource.swift"; sourceTree = "<group>"; };
+		E62BBB6029E980EB006EF52B /* GrowingCircleActivityIndicatorContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingCircleActivityIndicatorContentView.swift; sourceTree = "<group>"; };
+		E62BBB6229E98101006EF52B /* GrowingCircleActivityIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingCircleActivityIndicatorViewController.swift; sourceTree = "<group>"; };
+		E62BBB6829E9816F006EF52B /* CircleProgressContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressContentView.swift; sourceTree = "<group>"; };
+		E62BBB6A29E9818D006EF52B /* CircleProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressViewController.swift; sourceTree = "<group>"; };
+		E62BBB6C29E981A9006EF52B /* ProgressBarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarContentView.swift; sourceTree = "<group>"; };
+		E62BBB6E29E981B3006EF52B /* ProgressBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarViewController.swift; sourceTree = "<group>"; };
+		E62BBB7029E981E2006EF52B /* StrokeProgressBarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeProgressBarContentView.swift; sourceTree = "<group>"; };
+		E62BBB7229E98204006EF52B /* StrokeProgressBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeProgressBarViewController.swift; sourceTree = "<group>"; };
+		E62BBB7529E98252006EF52B /* Components */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Components; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +59,7 @@
 		E62BBB3229E97F86006EF52B = {
 			isa = PBXGroup;
 			children = (
+				E62BBB7429E98226006EF52B /* Packages */,
 				E62BBB3D29E97F86006EF52B /* SwiftComponentsLibrary */,
 				E62BBB3C29E97F86006EF52B /* Products */,
 			);
@@ -56,15 +76,120 @@
 		E62BBB3D29E97F86006EF52B /* SwiftComponentsLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				E62BBB3E29E97F86006EF52B /* AppDelegate.swift */,
-				E62BBB4029E97F86006EF52B /* SceneDelegate.swift */,
-				E62BBB4229E97F86006EF52B /* ViewController.swift */,
-				E62BBB4429E97F86006EF52B /* Main.storyboard */,
-				E62BBB4729E97F87006EF52B /* Assets.xcassets */,
-				E62BBB4929E97F87006EF52B /* LaunchScreen.storyboard */,
-				E62BBB4C29E97F87006EF52B /* Info.plist */,
+				E62BBB5229E97FC3006EF52B /* Application */,
+				E62BBB5329E98000006EF52B /* Screens */,
+				E62BBB5429E98010006EF52B /* Resources */,
+				E62BBB5529E98017006EF52B /* SupportingFiles */,
 			);
 			path = SwiftComponentsLibrary;
+			sourceTree = "<group>";
+		};
+		E62BBB5229E97FC3006EF52B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E62BBB3E29E97F86006EF52B /* AppDelegate.swift */,
+				E62BBB4029E97F86006EF52B /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E62BBB5329E98000006EF52B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E62BBB5629E98043006EF52B /* Outline */,
+				E62BBB5E29E980A3006EF52B /* ActivityIndicators */,
+				E62BBB6429E98127006EF52B /* Progresses */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E62BBB5429E98010006EF52B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E62BBB4729E97F87006EF52B /* Assets.xcassets */,
+				E62BBB4929E97F87006EF52B /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E62BBB5529E98017006EF52B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E62BBB4C29E97F87006EF52B /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		E62BBB5629E98043006EF52B /* Outline */ = {
+			isa = PBXGroup;
+			children = (
+				E62BBB5829E98060006EF52B /* OutlineView.swift */,
+				E62BBB5A29E9807B006EF52B /* OutlineViewController.swift */,
+				E62BBB5C29E98091006EF52B /* OutlineViewController+DataSource.swift */,
+			);
+			path = Outline;
+			sourceTree = "<group>";
+		};
+		E62BBB5E29E980A3006EF52B /* ActivityIndicators */ = {
+			isa = PBXGroup;
+			children = (
+				E62BBB5F29E980AF006EF52B /* GrowingCircleActivityIndicator */,
+			);
+			path = ActivityIndicators;
+			sourceTree = "<group>";
+		};
+		E62BBB5F29E980AF006EF52B /* GrowingCircleActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				E62BBB6029E980EB006EF52B /* GrowingCircleActivityIndicatorContentView.swift */,
+				E62BBB6229E98101006EF52B /* GrowingCircleActivityIndicatorViewController.swift */,
+			);
+			path = GrowingCircleActivityIndicator;
+			sourceTree = "<group>";
+		};
+		E62BBB6429E98127006EF52B /* Progresses */ = {
+			isa = PBXGroup;
+			children = (
+				E62BBB6529E98139006EF52B /* CircleProgress */,
+				E62BBB6629E98140006EF52B /* ProgressBar */,
+				E62BBB6729E9814B006EF52B /* StrokeProgressBar */,
+			);
+			path = Progresses;
+			sourceTree = "<group>";
+		};
+		E62BBB6529E98139006EF52B /* CircleProgress */ = {
+			isa = PBXGroup;
+			children = (
+				E62BBB6829E9816F006EF52B /* CircleProgressContentView.swift */,
+				E62BBB6A29E9818D006EF52B /* CircleProgressViewController.swift */,
+			);
+			path = CircleProgress;
+			sourceTree = "<group>";
+		};
+		E62BBB6629E98140006EF52B /* ProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				E62BBB6C29E981A9006EF52B /* ProgressBarContentView.swift */,
+				E62BBB6E29E981B3006EF52B /* ProgressBarViewController.swift */,
+			);
+			path = ProgressBar;
+			sourceTree = "<group>";
+		};
+		E62BBB6729E9814B006EF52B /* StrokeProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				E62BBB7029E981E2006EF52B /* StrokeProgressBarContentView.swift */,
+				E62BBB7229E98204006EF52B /* StrokeProgressBarViewController.swift */,
+			);
+			path = StrokeProgressBar;
+			sourceTree = "<group>";
+		};
+		E62BBB7429E98226006EF52B /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				E62BBB7529E98252006EF52B /* Components */,
+			);
+			path = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +252,6 @@
 			files = (
 				E62BBB4B29E97F87006EF52B /* LaunchScreen.storyboard in Resources */,
 				E62BBB4829E97F87006EF52B /* Assets.xcassets in Resources */,
-				E62BBB4629E97F86006EF52B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +262,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E62BBB4329E97F86006EF52B /* ViewController.swift in Sources */,
 				E62BBB3F29E97F86006EF52B /* AppDelegate.swift in Sources */,
 				E62BBB4129E97F86006EF52B /* SceneDelegate.swift in Sources */,
+				E62BBB5B29E9807B006EF52B /* OutlineViewController.swift in Sources */,
+				E62BBB5D29E98091006EF52B /* OutlineViewController+DataSource.swift in Sources */,
+				E62BBB7329E98204006EF52B /* StrokeProgressBarViewController.swift in Sources */,
+				E62BBB6B29E9818D006EF52B /* CircleProgressViewController.swift in Sources */,
+				E62BBB7129E981E2006EF52B /* StrokeProgressBarContentView.swift in Sources */,
+				E62BBB6F29E981B3006EF52B /* ProgressBarViewController.swift in Sources */,
+				E62BBB6329E98101006EF52B /* GrowingCircleActivityIndicatorViewController.swift in Sources */,
+				E62BBB6129E980EB006EF52B /* GrowingCircleActivityIndicatorContentView.swift in Sources */,
+				E62BBB5929E98060006EF52B /* OutlineView.swift in Sources */,
+				E62BBB6929E9816F006EF52B /* CircleProgressContentView.swift in Sources */,
+				E62BBB6D29E981A9006EF52B /* ProgressBarContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E62BBB4429E97F86006EF52B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E62BBB4529E97F86006EF52B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E62BBB4929E97F87006EF52B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,10 +415,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HSMYYPSQ92;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwiftComponentsLibrary/Info.plist;
+				INFOPLIST_FILE = SwiftComponentsLibrary/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,10 +442,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HSMYYPSQ92;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwiftComponentsLibrary/Info.plist;
+				INFOPLIST_FILE = SwiftComponentsLibrary/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
