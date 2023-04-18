@@ -28,10 +28,15 @@ final class GrowingCircleActivityIndicatorViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupActivityIndicator()
         setupTargets()
     }
 
     // MARK: - Setup
+    
+    private func setupActivityIndicator() {
+        contentView.activityIndicatorView.startAnimating()
+    }
 
     private func setupTargets() {
         contentView.colorSegmentedControl.addTarget(self, action: #selector(colorDidChange(_:)), for: .valueChanged)

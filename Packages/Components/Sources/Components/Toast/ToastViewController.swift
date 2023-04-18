@@ -11,7 +11,7 @@ public final class ToastViewController: UIViewController {
 
     // MARK: - Private Properties
 
-    private let generator = UIImpactFeedbackGenerator(style: .light)
+    private let generator = UINotificationFeedbackGenerator()
     private var window: UIWindow?
     private var hideAnimator: UIViewPropertyAnimator?
     private var animationProgressWhenInterrupted: CGFloat = 0
@@ -126,7 +126,14 @@ public final class ToastViewController: UIViewController {
 
     private func generateFeedback() {
         generator.prepare()
-        generator.impactOccurred()
+        switch model.type {
+        case .error:
+            generator.notificationOccurred(.error)
+        case .warning:
+            generator.notificationOccurred(.warning)
+        case .success:
+            generator.notificationOccurred(.success)
+        }
     }
 
     private func makeHideAnimator() {

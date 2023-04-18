@@ -45,45 +45,58 @@ extension OutlineViewController {
     final class ItemData {
         let menuItems = [
             OutlineItem(
-                title: "Basics",
+                title: "Activity Indicators",
                 subitems: [
                     OutlineItem(
-                        title: "Activity Indicators",
-                        subitems: [
-                            OutlineItem(
-                                title: "Growing Circle Activity Indicator View",
-                                viewController: GrowingCircleActivityIndicatorViewController.self
-                            )
-                        ]
-                    ),
-                    OutlineItem(
-                        title: "Progresses",
-                        subitems: [
-                            OutlineItem(
-                                title: "Circle Progress View",
-                                viewController: CircleProgressViewController.self
-                            ),
-                            OutlineItem(
-                                title: "Progress Bar View",
-                                viewController: ProgressBarViewController.self
-                            ),
-                            OutlineItem(
-                                title: "Stroke Progress Bar View",
-                                viewController: StrokeProgressBarViewController.self
-                            )
-                        ]
-                    ),
-                    OutlineItem(
-                        title: "Toasts",
-                        subitems: [
-                            OutlineItem(
-                                title: "Toast View",
-                                viewController: ToastViewController.self
-                            )
-                        ]
+                        title: "Growing Circle Activity Indicator View",
+                        viewController: GrowingCircleActivityIndicatorViewController.self
                     )
                 ]
             ),
+            OutlineItem(
+                title: "Pickers",
+                subitems: [
+                    OutlineItem(
+                        title: "Carousel Picker View",
+                        viewController: CarouselPickerViewController.self
+                    )
+                ]
+            ),
+            OutlineItem(
+                title: "Progresses",
+                subitems: [
+                    OutlineItem(
+                        title: "Circle Progress View",
+                        viewController: CircleProgressViewController.self
+                    ),
+                    OutlineItem(
+                        title: "Progress Bar View",
+                        viewController: ProgressBarViewController.self
+                    ),
+                    OutlineItem(
+                        title: "Stroke Progress Bar View",
+                        viewController: StrokeProgressBarViewController.self
+                    )
+                ]
+            ),
+            OutlineItem(
+                title: "Sliders",
+                subitems: [
+                    OutlineItem(
+                        title: "Range Slider",
+                        viewController: RangeSliderViewController.self
+                    )
+                ]
+            ),
+            OutlineItem(
+                title: "Toasts",
+                subitems: [
+                    OutlineItem(
+                        title: "Toast View",
+                        viewController: ToastViewController.self
+                    )
+                ]
+            )
         ]
     }
 }
