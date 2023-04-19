@@ -59,6 +59,8 @@ public final class CarouselPickerView: UIView {
             guard let layout = collectionView.collectionViewLayout as? CarouselCollectionViewFlowLayout else { return }
             layout.spacing = spacing
             layout.invalidateLayout()
+            updateValue()
+            generateImpactFeedback()
         }
     }
     
@@ -128,6 +130,7 @@ public final class CarouselPickerView: UIView {
 
     private func setupDelegates() {
         collectionView.dataSource = self
+        collectionView.delegate = self
     }
 
     private func setupSubviews() {
@@ -171,6 +174,10 @@ extension CarouselPickerView: UICollectionViewDataSource {
         return cell
     }
 }
+
+// MARK: - UICollectionViewDelegate
+
+extension CarouselPickerView: UICollectionViewDelegate {}
 
 // MARK: - UIScrollViewDelegate
 
