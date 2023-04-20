@@ -122,13 +122,13 @@ public final class StrokeProgressBarView: UIView {
 
     private func setup() {
         backgroundColor = .systemBackground
-        layer.contentsScale = UIScreen.main.scale
+        layer.contentsScale = window?.windowScene?.screen.scale ?? 0
     }
 
     private func setupSublayers() {
-        trackLayer.contentsScale = UIScreen.main.scale
-        progressLayer.contentsScale = UIScreen.main.scale
-        borderLayer.contentsScale = UIScreen.main.scale
+        trackLayer.contentsScale = window?.windowScene?.screen.scale ?? 0
+        progressLayer.contentsScale = window?.windowScene?.screen.scale ?? 0
+        borderLayer.contentsScale = window?.windowScene?.screen.scale ?? 0
         layer.addSublayer(trackLayer)
         layer.addSublayer(progressLayer)
         layer.addSublayer(borderLayer)

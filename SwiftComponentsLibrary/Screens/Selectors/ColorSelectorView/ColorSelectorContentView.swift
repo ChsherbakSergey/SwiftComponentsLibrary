@@ -1,9 +1,9 @@
-//  Created by Sergey Chsherbak on 18/04/2023.
+//  Created by Sergey Chsherbak on 19/04/2023.
 
 import Components
 import UIKit
 
-final class CarouselPickerContentView: UIView {
+final class ColorSelectorContentView: UIView {
     
     // MARK: - UI Elements
     
@@ -19,22 +19,22 @@ final class CarouselPickerContentView: UIView {
         return this
     }()
     
-    let pickerView: CarouselPickerView = {
-        let this = CarouselPickerView(numberOfBars: 11)
+    let selectorView: ColorSelectorView = {
+        let this = ColorSelectorView()
         this.translatesAutoresizingMaskIntoConstraints = false
         return this
     }()
     
-    let baseSelectedForegroundColorLabel: UILabel = {
+    let baseBackgroundColorLabel: UILabel = {
         let this = UILabel()
         this.translatesAutoresizingMaskIntoConstraints = false
-        this.text = "Selected Color:"
+        this.text = "Background Color:"
         this.textColor = .label
         this.font = .systemFont(ofSize: 13, weight: .medium)
         return this
     }()
 
-    let baseSelectedForegroundColorSegmentedControl: UISegmentedControl = {
+    let baseBackgroundColorSegmentedControl: UISegmentedControl = {
         let this = UISegmentedControl()
         this.insertSegment(withTitle: "System Blue", at: 0, animated: false)
         this.insertSegment(withTitle: "System Green", at: 1, animated: false)
@@ -43,119 +43,105 @@ final class CarouselPickerContentView: UIView {
         return this
     }()
 
-    private let baseSelectedForegroundColorStackView: UIStackView = {
+    private let baseBackgroundColorStackView: UIStackView = {
         let this = UIStackView()
         this.axis = .vertical
         this.spacing = 8
         return this
     }()
     
-    let baseUnselectedForegroundColorLabel: UILabel = {
+    let baseStrokeForegroundColorLabel: UILabel = {
         let this = UILabel()
         this.translatesAutoresizingMaskIntoConstraints = false
-        this.text = "Unselected Color:"
+        this.text = "Stroke Foreground Color:"
         this.textColor = .label
         this.font = .systemFont(ofSize: 13, weight: .medium)
         return this
     }()
 
-    let baseUnselectedForegroundColorSegmentedControl: UISegmentedControl = {
+    let baseStrokeForegroundColorSegmentedControl: UISegmentedControl = {
         let this = UISegmentedControl()
-        this.insertSegment(withTitle: "System Gray", at: 0, animated: false)
-        this.insertSegment(withTitle: "System Pink", at: 1, animated: false)
-        this.insertSegment(withTitle: "System Purple", at: 2, animated: false)
+        this.insertSegment(withTitle: "Tertiary", at: 0, animated: false)
+        this.insertSegment(withTitle: "White", at: 1, animated: false)
+        this.insertSegment(withTitle: "Black", at: 2, animated: false)
         this.selectedSegmentIndex = 0
         return this
     }()
 
-    private let baseUnselectedForegroundColorStackView: UIStackView = {
+    private let baseStrokeForegroundColorStackView: UIStackView = {
         let this = UIStackView()
         this.axis = .vertical
         this.spacing = 8
         return this
     }()
     
-    let spacingLabel: UILabel = {
+    let strokeWidthLabel: UILabel = {
         let this = UILabel()
         this.translatesAutoresizingMaskIntoConstraints = false
-        this.text = "Spacing: 40"
+        this.text = "Stroke Width: 2"
         this.textColor = .label
         this.font = .systemFont(ofSize: 13, weight: .medium)
         return this
     }()
 
-    let spacingSlider: UISlider = {
+    let strokeWidthSlider: UISlider = {
         let this = UISlider()
         this.translatesAutoresizingMaskIntoConstraints = false
-        this.minimumValue = 20
-        this.maximumValue = 60
-        this.value = 40
+        this.minimumValue = 2
+        this.maximumValue = 5
+        this.value = 2
         return this
     }()
 
-    private let spacingStackView: UIStackView = {
+    private let strokeWidthStackView: UIStackView = {
         let this = UIStackView()
         this.axis = .vertical
         this.spacing = 8
         return this
     }()
     
-    let alphaLabel: UILabel = {
+    let animationDurationLabel: UILabel = {
         let this = UILabel()
         this.translatesAutoresizingMaskIntoConstraints = false
-        this.text = "Alpha: 0.5"
+        this.text = "Animation duration: 0.23"
         this.textColor = .label
         this.font = .systemFont(ofSize: 13, weight: .medium)
         return this
     }()
 
-    let alphaSlider: UISlider = {
+    let animationDurationSlider: UISlider = {
         let this = UISlider()
         this.translatesAutoresizingMaskIntoConstraints = false
-        this.minimumValue = 0.25
-        this.maximumValue = 0.75
-        this.value = 0.5
+        this.minimumValue = 0.23
+        this.maximumValue = 0.5
+        this.value = 0.23
         return this
     }()
 
-    private let alphaStackView: UIStackView = {
+    private let animationDurationStackView: UIStackView = {
         let this = UIStackView()
         this.axis = .vertical
         this.spacing = 8
         return this
     }()
     
-    let scaleLabel: UILabel = {
-        let this = UILabel()
-        this.translatesAutoresizingMaskIntoConstraints = false
-        this.text = "Scale: 0.65"
-        this.textColor = .label
-        this.font = .systemFont(ofSize: 13, weight: .medium)
-        return this
-    }()
-
-    let scaleSlider: UISlider = {
-        let this = UISlider()
-        this.translatesAutoresizingMaskIntoConstraints = false
-        this.minimumValue = 0.4
-        this.maximumValue = 0.8
-        this.value = 0.65
-        return this
-    }()
-
-    private let scaleStackView: UIStackView = {
-        let this = UIStackView()
-        this.axis = .vertical
-        this.spacing = 8
-        return this
-    }()
-    
-    let setRandomValueButton: UIButton = {
+    let selectButton: UIButton = {
         let this = UIButton()
         this.translatesAutoresizingMaskIntoConstraints = false
         this.titleLabel?.font = .systemFont(ofSize: 15, weight: .medium)
-        this.setTitle("Set Random Value", for: .normal)
+        this.setTitle("Select", for: .normal)
         this.backgroundColor = .systemBlue
+        this.layer.cornerCurve = .continuous
+        this.layer.cornerRadius = 12
+        return this
+    }()
+    
+    let deselectButton: UIButton = {
+        let this = UIButton()
+        this.translatesAutoresizingMaskIntoConstraints = false
+        this.titleLabel?.font = .systemFont(ofSize: 15, weight: .medium)
+        this.setTitle("Deselect", for: .normal)
+        this.backgroundColor = .systemRed
         this.layer.cornerCurve = .continuous
         this.layer.cornerRadius = 12
         return this
@@ -197,24 +183,22 @@ final class CarouselPickerContentView: UIView {
     }
     
     private func setupSubviews() {
-        baseSelectedForegroundColorStackView.addArrangedSubview(baseSelectedForegroundColorLabel)
-        baseSelectedForegroundColorStackView.addArrangedSubview(baseSelectedForegroundColorSegmentedControl)
-        baseUnselectedForegroundColorStackView.addArrangedSubview(baseUnselectedForegroundColorLabel)
-        baseUnselectedForegroundColorStackView.addArrangedSubview(baseUnselectedForegroundColorSegmentedControl)
-        spacingStackView.addArrangedSubview(spacingLabel)
-        spacingStackView.addArrangedSubview(spacingSlider)
-        alphaStackView.addArrangedSubview(alphaLabel)
-        alphaStackView.addArrangedSubview(alphaSlider)
-        scaleStackView.addArrangedSubview(scaleLabel)
-        scaleStackView.addArrangedSubview(scaleSlider)
-        buttonsStackView.addArrangedSubview(setRandomValueButton)
-        verticalStackView.addArrangedSubview(baseSelectedForegroundColorStackView)
-        verticalStackView.addArrangedSubview(baseUnselectedForegroundColorStackView)
-        verticalStackView.addArrangedSubview(spacingStackView)
-        verticalStackView.addArrangedSubview(alphaStackView)
-        verticalStackView.addArrangedSubview(scaleStackView)
+        baseBackgroundColorStackView.addArrangedSubview(baseBackgroundColorLabel)
+        baseBackgroundColorStackView.addArrangedSubview(baseBackgroundColorSegmentedControl)
+        baseStrokeForegroundColorStackView.addArrangedSubview(baseStrokeForegroundColorLabel)
+        baseStrokeForegroundColorStackView.addArrangedSubview(baseStrokeForegroundColorSegmentedControl)
+        strokeWidthStackView.addArrangedSubview(strokeWidthLabel)
+        strokeWidthStackView.addArrangedSubview(strokeWidthSlider)
+        animationDurationStackView.addArrangedSubview(animationDurationLabel)
+        animationDurationStackView.addArrangedSubview(animationDurationSlider)
+        buttonsStackView.addArrangedSubview(selectButton)
+        buttonsStackView.addArrangedSubview(deselectButton)
+        verticalStackView.addArrangedSubview(baseBackgroundColorStackView)
+        verticalStackView.addArrangedSubview(baseStrokeForegroundColorStackView)
+        verticalStackView.addArrangedSubview(strokeWidthStackView)
+        verticalStackView.addArrangedSubview(animationDurationStackView)
         verticalStackView.addArrangedSubview(buttonsStackView)
-        containerView.addSubview(pickerView)
+        containerView.addSubview(selectorView)
         containerView.addSubview(verticalStackView)
         scrollView.addSubview(containerView)
         addSubview(scrollView)
@@ -233,16 +217,18 @@ final class CarouselPickerContentView: UIView {
             containerView.trailingAnchor.constraint(equalTo: scrollView.trailingAnchor),
             containerView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor),
 
-            pickerView.topAnchor.constraint(equalTo: containerView.topAnchor, constant: 32),
-            pickerView.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
-            pickerView.trailingAnchor.constraint(equalTo: containerView.trailingAnchor),
+            selectorView.topAnchor.constraint(equalTo: containerView.topAnchor, constant: 32),
+            selectorView.centerXAnchor.constraint(equalTo: containerView.centerXAnchor),
+            selectorView.widthAnchor.constraint(equalToConstant: 48),
+            selectorView.heightAnchor.constraint(equalToConstant: 48),
 
-            verticalStackView.topAnchor.constraint(equalTo: pickerView.bottomAnchor, constant: 32),
+            verticalStackView.topAnchor.constraint(equalTo: selectorView.bottomAnchor, constant: 32),
             verticalStackView.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 40),
             verticalStackView.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -40),
             verticalStackView.bottomAnchor.constraint(equalTo: containerView.bottomAnchor, constant: -20),
 
-            setRandomValueButton.heightAnchor.constraint(equalToConstant: 48)
+            selectButton.heightAnchor.constraint(equalToConstant: 48),
+            deselectButton.heightAnchor.constraint(equalToConstant: 48)
         ])
     }
 }

@@ -80,6 +80,15 @@ extension OutlineViewController {
                 ]
             ),
             OutlineItem(
+                title: "Selectors",
+                subitems: [
+                    OutlineItem(
+                        title: "Color Selector View",
+                        viewController: ColorSelectorViewController.self
+                    )
+                ]
+            ),
+            OutlineItem(
                 title: "Sliders",
                 subitems: [
                     OutlineItem(

@@ -96,11 +96,11 @@ public final class GrowingCircleActivityIndicatorView: UIView {
 
     private func setup() {
         backgroundColor = .systemBackground
-        layer.contentsScale = UIScreen.main.scale
+        layer.contentsScale = window?.windowScene?.screen.scale ?? 0
     }
 
     private func setupSublayers() {
-        growingCircleLayer.contentsScale = UIScreen.main.scale
+        growingCircleLayer.contentsScale = window?.windowScene?.screen.scale ?? 0
         layer.addSublayer(growingCircleLayer)
     }
 

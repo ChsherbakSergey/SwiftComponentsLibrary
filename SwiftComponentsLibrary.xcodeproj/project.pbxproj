@@ -27,6 +27,8 @@
 		E62BBB7E29E9E53E006EF52B /* ToastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB7D29E9E53E006EF52B /* ToastViewController.swift */; };
 		E66FF8FD29EE9C56003C81B4 /* CarouselPickerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66FF8FC29EE9C56003C81B4 /* CarouselPickerContentView.swift */; };
 		E66FF8FF29EE9DC2003C81B4 /* CarouselPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66FF8FE29EE9DC2003C81B4 /* CarouselPickerViewController.swift */; };
+		E66FF90229EFEA85003C81B4 /* ColorSelectorContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66FF90129EFEA85003C81B4 /* ColorSelectorContentView.swift */; };
+		E66FF90429EFEB9F003C81B4 /* ColorSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66FF90329EFEB9F003C81B4 /* ColorSelectorViewController.swift */; };
 		E68FF2C729EB19A100296CAA /* RangeSliderContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68FF2C629EB19A100296CAA /* RangeSliderContentView.swift */; };
 		E68FF2C929EB1A7400296CAA /* RangeSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68FF2C829EB1A7400296CAA /* RangeSliderViewController.swift */; };
 /* End PBXBuildFile section */
@@ -54,6 +56,8 @@
 		E62BBB7D29E9E53E006EF52B /* ToastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastViewController.swift; sourceTree = "<group>"; };
 		E66FF8FC29EE9C56003C81B4 /* CarouselPickerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselPickerContentView.swift; sourceTree = "<group>"; };
 		E66FF8FE29EE9DC2003C81B4 /* CarouselPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselPickerViewController.swift; sourceTree = "<group>"; };
+		E66FF90129EFEA85003C81B4 /* ColorSelectorContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSelectorContentView.swift; sourceTree = "<group>"; };
+		E66FF90329EFEB9F003C81B4 /* ColorSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSelectorViewController.swift; sourceTree = "<group>"; };
 		E68FF2C629EB19A100296CAA /* RangeSliderContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSliderContentView.swift; sourceTree = "<group>"; };
 		E68FF2C829EB1A7400296CAA /* RangeSliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSliderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E603CB0D29F13739004172AA /* Selectors */ = {
+			isa = PBXGroup;
+			children = (
+				E66FF90029EFEA70003C81B4 /* ColorSelectorView */,
+			);
+			path = Selectors;
+			sourceTree = "<group>";
+		};
 		E62BBB3229E97F86006EF52B = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +127,7 @@
 				E62BBB5E29E980A3006EF52B /* ActivityIndicators */,
 				E66FF8FA29EE98A6003C81B4 /* Pickers */,
 				E62BBB6429E98127006EF52B /* Progresses */,
+				E603CB0D29F13739004172AA /* Selectors */,
 				E68FF2C429EB198100296CAA /* Sliders */,
 				E62BBB7929E9E4E6006EF52B /* Toasts */,
 			);
@@ -251,6 +264,15 @@
 			path = CarouselPickerView;
 			sourceTree = "<group>";
 		};
+		E66FF90029EFEA70003C81B4 /* ColorSelectorView */ = {
+			isa = PBXGroup;
+			children = (
+				E66FF90129EFEA85003C81B4 /* ColorSelectorContentView.swift */,
+				E66FF90329EFEB9F003C81B4 /* ColorSelectorViewController.swift */,
+			);
+			path = ColorSelectorView;
+			sourceTree = "<group>";
+		};
 		E68FF2C429EB198100296CAA /* Sliders */ = {
 			isa = PBXGroup;
 			children = (
@@ -347,6 +369,7 @@
 				E62BBB5B29E9807B006EF52B /* OutlineViewController.swift in Sources */,
 				E62BBB5D29E98091006EF52B /* OutlineViewController+DataSource.swift in Sources */,
 				E62BBB7329E98204006EF52B /* StrokeProgressBarViewController.swift in Sources */,
+				E66FF90229EFEA85003C81B4 /* ColorSelectorContentView.swift in Sources */,
 				E62BBB6B29E9818D006EF52B /* CircleProgressViewController.swift in Sources */,
 				E68FF2C929EB1A7400296CAA /* RangeSliderViewController.swift in Sources */,
 				E62BBB7C29E9E522006EF52B /* ToastContentView.swift in Sources */,
@@ -357,6 +380,7 @@
 				E62BBB6129E980EB006EF52B /* GrowingCircleActivityIndicatorContentView.swift in Sources */,
 				E62BBB5929E98060006EF52B /* OutlineView.swift in Sources */,
 				E66FF8FF29EE9DC2003C81B4 /* CarouselPickerViewController.swift in Sources */,
+				E66FF90429EFEB9F003C81B4 /* ColorSelectorViewController.swift in Sources */,
 				E68FF2C729EB19A100296CAA /* RangeSliderContentView.swift in Sources */,
 				E62BBB6929E9816F006EF52B /* CircleProgressContentView.swift in Sources */,
 				E62BBB6D29E981A9006EF52B /* ProgressBarContentView.swift in Sources */,
