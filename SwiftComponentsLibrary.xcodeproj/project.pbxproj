@@ -25,6 +25,8 @@
 		E62BBB7829E9E243006EF52B /* Components in Frameworks */ = {isa = PBXBuildFile; productRef = E62BBB7729E9E243006EF52B /* Components */; };
 		E62BBB7C29E9E522006EF52B /* ToastContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB7B29E9E522006EF52B /* ToastContentView.swift */; };
 		E62BBB7E29E9E53E006EF52B /* ToastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB7D29E9E53E006EF52B /* ToastViewController.swift */; };
+		E658280229F1666C00792C57 /* Button3DContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658280129F1666C00792C57 /* Button3DContentView.swift */; };
+		E658280429F1668700792C57 /* Button3DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658280329F1668700792C57 /* Button3DViewController.swift */; };
 		E66FF8FD29EE9C56003C81B4 /* CarouselPickerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66FF8FC29EE9C56003C81B4 /* CarouselPickerContentView.swift */; };
 		E66FF8FF29EE9DC2003C81B4 /* CarouselPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66FF8FE29EE9DC2003C81B4 /* CarouselPickerViewController.swift */; };
 		E66FF90229EFEA85003C81B4 /* ColorSelectorContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66FF90129EFEA85003C81B4 /* ColorSelectorContentView.swift */; };
@@ -54,6 +56,8 @@
 		E62BBB7529E98252006EF52B /* Components */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Components; sourceTree = "<group>"; };
 		E62BBB7B29E9E522006EF52B /* ToastContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastContentView.swift; sourceTree = "<group>"; };
 		E62BBB7D29E9E53E006EF52B /* ToastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastViewController.swift; sourceTree = "<group>"; };
+		E658280129F1666C00792C57 /* Button3DContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button3DContentView.swift; sourceTree = "<group>"; };
+		E658280329F1668700792C57 /* Button3DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button3DViewController.swift; sourceTree = "<group>"; };
 		E66FF8FC29EE9C56003C81B4 /* CarouselPickerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselPickerContentView.swift; sourceTree = "<group>"; };
 		E66FF8FE29EE9DC2003C81B4 /* CarouselPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselPickerViewController.swift; sourceTree = "<group>"; };
 		E66FF90129EFEA85003C81B4 /* ColorSelectorContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSelectorContentView.swift; sourceTree = "<group>"; };
@@ -125,6 +129,7 @@
 			children = (
 				E62BBB5629E98043006EF52B /* Outline */,
 				E62BBB5E29E980A3006EF52B /* ActivityIndicators */,
+				E65827FF29F1665200792C57 /* Buttons */,
 				E66FF8FA29EE98A6003C81B4 /* Pickers */,
 				E62BBB6429E98127006EF52B /* Progresses */,
 				E603CB0D29F13739004172AA /* Selectors */,
@@ -245,6 +250,23 @@
 				E62BBB7D29E9E53E006EF52B /* ToastViewController.swift */,
 			);
 			path = Toast;
+			sourceTree = "<group>";
+		};
+		E65827FF29F1665200792C57 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				E658280029F1665A00792C57 /* Button3D */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		E658280029F1665A00792C57 /* Button3D */ = {
+			isa = PBXGroup;
+			children = (
+				E658280129F1666C00792C57 /* Button3DContentView.swift */,
+				E658280329F1668700792C57 /* Button3DViewController.swift */,
+			);
+			path = Button3D;
 			sourceTree = "<group>";
 		};
 		E66FF8FA29EE98A6003C81B4 /* Pickers */ = {
@@ -368,11 +390,13 @@
 				E62BBB4129E97F86006EF52B /* SceneDelegate.swift in Sources */,
 				E62BBB5B29E9807B006EF52B /* OutlineViewController.swift in Sources */,
 				E62BBB5D29E98091006EF52B /* OutlineViewController+DataSource.swift in Sources */,
+				E658280429F1668700792C57 /* Button3DViewController.swift in Sources */,
 				E62BBB7329E98204006EF52B /* StrokeProgressBarViewController.swift in Sources */,
 				E66FF90229EFEA85003C81B4 /* ColorSelectorContentView.swift in Sources */,
 				E62BBB6B29E9818D006EF52B /* CircleProgressViewController.swift in Sources */,
 				E68FF2C929EB1A7400296CAA /* RangeSliderViewController.swift in Sources */,
 				E62BBB7C29E9E522006EF52B /* ToastContentView.swift in Sources */,
+				E658280229F1666C00792C57 /* Button3DContentView.swift in Sources */,
 				E62BBB7129E981E2006EF52B /* StrokeProgressBarContentView.swift in Sources */,
 				E62BBB6F29E981B3006EF52B /* ProgressBarViewController.swift in Sources */,
 				E62BBB6329E98101006EF52B /* GrowingCircleActivityIndicatorViewController.swift in Sources */,

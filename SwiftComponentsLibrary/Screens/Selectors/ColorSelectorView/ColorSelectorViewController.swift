@@ -13,7 +13,7 @@ final class ColorSelectorViewController: UIViewController {
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nil, bundle: nil)
-        title = "ColorPickerView"
+        title = "ColorSelectorView"
     }
     
     required init?(coder: NSCoder) {
