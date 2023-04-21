@@ -27,6 +27,8 @@
 		E62BBB7E29E9E53E006EF52B /* ToastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB7D29E9E53E006EF52B /* ToastViewController.swift */; };
 		E658280229F1666C00792C57 /* Button3DContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658280129F1666C00792C57 /* Button3DContentView.swift */; };
 		E658280429F1668700792C57 /* Button3DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658280329F1668700792C57 /* Button3DViewController.swift */; };
+		E658280729F2B0A100792C57 /* StepProgressBarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658280629F2B0A100792C57 /* StepProgressBarContentView.swift */; };
+		E658280929F2B18100792C57 /* StepProgressBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658280829F2B18100792C57 /* StepProgressBarViewController.swift */; };
 		E66FF8FD29EE9C56003C81B4 /* CarouselPickerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66FF8FC29EE9C56003C81B4 /* CarouselPickerContentView.swift */; };
 		E66FF8FF29EE9DC2003C81B4 /* CarouselPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66FF8FE29EE9DC2003C81B4 /* CarouselPickerViewController.swift */; };
 		E66FF90229EFEA85003C81B4 /* ColorSelectorContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66FF90129EFEA85003C81B4 /* ColorSelectorContentView.swift */; };
@@ -58,6 +60,8 @@
 		E62BBB7D29E9E53E006EF52B /* ToastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastViewController.swift; sourceTree = "<group>"; };
 		E658280129F1666C00792C57 /* Button3DContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button3DContentView.swift; sourceTree = "<group>"; };
 		E658280329F1668700792C57 /* Button3DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button3DViewController.swift; sourceTree = "<group>"; };
+		E658280629F2B0A100792C57 /* StepProgressBarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepProgressBarContentView.swift; sourceTree = "<group>"; };
+		E658280829F2B18100792C57 /* StepProgressBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepProgressBarViewController.swift; sourceTree = "<group>"; };
 		E66FF8FC29EE9C56003C81B4 /* CarouselPickerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselPickerContentView.swift; sourceTree = "<group>"; };
 		E66FF8FE29EE9DC2003C81B4 /* CarouselPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselPickerViewController.swift; sourceTree = "<group>"; };
 		E66FF90129EFEA85003C81B4 /* ColorSelectorContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSelectorContentView.swift; sourceTree = "<group>"; };
@@ -188,6 +192,7 @@
 			children = (
 				E62BBB6529E98139006EF52B /* CircleProgress */,
 				E62BBB6629E98140006EF52B /* ProgressBar */,
+				E658280529F2B08500792C57 /* StepProgressBar */,
 				E62BBB6729E9814B006EF52B /* StrokeProgressBar */,
 			);
 			path = Progresses;
@@ -267,6 +272,15 @@
 				E658280329F1668700792C57 /* Button3DViewController.swift */,
 			);
 			path = Button3D;
+			sourceTree = "<group>";
+		};
+		E658280529F2B08500792C57 /* StepProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				E658280629F2B0A100792C57 /* StepProgressBarContentView.swift */,
+				E658280829F2B18100792C57 /* StepProgressBarViewController.swift */,
+			);
+			path = StepProgressBar;
 			sourceTree = "<group>";
 		};
 		E66FF8FA29EE98A6003C81B4 /* Pickers */ = {
@@ -398,6 +412,7 @@
 				E62BBB7C29E9E522006EF52B /* ToastContentView.swift in Sources */,
 				E658280229F1666C00792C57 /* Button3DContentView.swift in Sources */,
 				E62BBB7129E981E2006EF52B /* StrokeProgressBarContentView.swift in Sources */,
+				E658280929F2B18100792C57 /* StepProgressBarViewController.swift in Sources */,
 				E62BBB6F29E981B3006EF52B /* ProgressBarViewController.swift in Sources */,
 				E62BBB6329E98101006EF52B /* GrowingCircleActivityIndicatorViewController.swift in Sources */,
 				E62BBB7E29E9E53E006EF52B /* ToastViewController.swift in Sources */,
@@ -407,6 +422,7 @@
 				E66FF90429EFEB9F003C81B4 /* ColorSelectorViewController.swift in Sources */,
 				E68FF2C729EB19A100296CAA /* RangeSliderContentView.swift in Sources */,
 				E62BBB6929E9816F006EF52B /* CircleProgressContentView.swift in Sources */,
+				E658280729F2B0A100792C57 /* StepProgressBarContentView.swift in Sources */,
 				E62BBB6D29E981A9006EF52B /* ProgressBarContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -83,6 +83,10 @@ extension OutlineViewController {
                         viewController: ProgressBarViewController.self
                     ),
                     OutlineItem(
+                        title: "Step Progress Bar View",
+                        viewController: StepProgressBarViewController.self
+                    ),
+                    OutlineItem(
                         title: "Stroke Progress Bar View",
                         viewController: StrokeProgressBarViewController.self
                     )
