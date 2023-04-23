@@ -5,10 +5,17 @@
 
 Play with SwiftComponentsLibrary, and learn how to develop all components available in the repository by browsing the code.
 
+- [Support](#Support)
 - [Preview](#Preview)
 - [Features](#features)
 - [Installation](#installation)
 - [Requirements](#requirements)
+
+## Support
+
+This repositiry is being developed only by me in my free time. I'm striving to develop at least one UI component a week.
+
+If you have found it useful and/or interesting, consider to give it a star and support me on [Patreon](https://www.patreon.com/SergeyChsherbak). That would mean a world to me and bring more value to our iOS community. 🙂
 
 ## Preview
 
