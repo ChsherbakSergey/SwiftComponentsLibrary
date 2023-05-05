@@ -27,6 +27,7 @@ This repository contains a variety of UI components. Some examples include:
 | - *GrowingCircleActivityIndicatorView* | ![Preview of the Growing Circle Activity Indicator View UI component](https://user-images.githubusercontent.com/66562134/233853658-360743ec-1339-4ec0-bee7-076121c166cc.gif) |
 | **Buttons** |
 | - *Button3D* | ![Preview of the Button 3D UI component](https://user-images.githubusercontent.com/66562134/233854090-2eef839b-9511-4eba-beaf-77a2312fe13e.gif) |
+| - *RecordButton* | ![Preview of the RecordButton UI component](https://user-images.githubusercontent.com/66562134/236546806-a9b35f7d-1554-4fde-b294-fe6ef5229a11.gif) |
 | **Pickers** |
 | - *CarouselPickerView* | ![Preview of the Carousel Picker View UI component](https://user-images.githubusercontent.com/66562134/233855007-ae3bfcd5-d7e0-4093-b110-a016e5f0f5f1.gif) |
 | **Progresses** |
