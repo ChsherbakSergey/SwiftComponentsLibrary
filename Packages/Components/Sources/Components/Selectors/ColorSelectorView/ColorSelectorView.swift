@@ -23,15 +23,6 @@ public final class ColorSelectorView: UIView {
     public var strokeWidth: CGFloat = 2
     public var animationDuration: TimeInterval = 0.23
     
-    // MARK: - Private Properties
-    
-    private var _strokeWidth: CGFloat = 0
-    private var isSelected: Bool = false
-    
-    private let circleLayer = CAShapeLayer()
-    private let coreCircleLayer = CAShapeLayer()
-    private let selectionLayer = CAShapeLayer()
-    
     // MARK: - Overriden Properties
     
     public override var bounds: CGRect {
@@ -41,6 +32,15 @@ public final class ColorSelectorView: UIView {
             updateLayout()
         }
     }
+    
+    // MARK: - Private Properties
+    
+    private var _strokeWidth: CGFloat = 0
+    private var isSelected: Bool = false
+    
+    private let circleLayer = CAShapeLayer()
+    private let coreCircleLayer = CAShapeLayer()
+    private let selectionLayer = CAShapeLayer()
     
     // MARK: - Init
     

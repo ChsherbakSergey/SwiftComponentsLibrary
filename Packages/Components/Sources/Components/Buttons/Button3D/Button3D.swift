@@ -62,7 +62,6 @@ public final class Button3D: UIControl {
     // MARK: - Private Properties
     
     private let feedbackGenerator = UIImpactFeedbackGenerator(style: .soft)
-    private var stateAnimator: UIViewPropertyAnimator?
     
     // MARK: - Init
     

@@ -35,6 +35,8 @@
 		E66FF90429EFEB9F003C81B4 /* ColorSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66FF90329EFEB9F003C81B4 /* ColorSelectorViewController.swift */; };
 		E68FF2C729EB19A100296CAA /* RangeSliderContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68FF2C629EB19A100296CAA /* RangeSliderContentView.swift */; };
 		E68FF2C929EB1A7400296CAA /* RangeSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68FF2C829EB1A7400296CAA /* RangeSliderViewController.swift */; };
+		E6CFE3D529FE748C00AD4A12 /* RecordButtonContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CFE3D429FE748C00AD4A12 /* RecordButtonContentView.swift */; };
+		E6CFE3D729FE75D100AD4A12 /* RecordButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CFE3D629FE75D100AD4A12 /* RecordButtonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		E66FF90329EFEB9F003C81B4 /* ColorSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSelectorViewController.swift; sourceTree = "<group>"; };
 		E68FF2C629EB19A100296CAA /* RangeSliderContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSliderContentView.swift; sourceTree = "<group>"; };
 		E68FF2C829EB1A7400296CAA /* RangeSliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSliderViewController.swift; sourceTree = "<group>"; };
+		E6CFE3D429FE748C00AD4A12 /* RecordButtonContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordButtonContentView.swift; sourceTree = "<group>"; };
+		E6CFE3D629FE75D100AD4A12 /* RecordButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordButtonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +264,7 @@
 		E65827FF29F1665200792C57 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
+				E6CFE3D329FE747B00AD4A12 /* RecordButton */,
 				E658280029F1665A00792C57 /* Button3D */,
 			);
 			path = Buttons;
@@ -324,6 +329,15 @@
 				E68FF2C829EB1A7400296CAA /* RangeSliderViewController.swift */,
 			);
 			path = RangeSlider;
+			sourceTree = "<group>";
+		};
+		E6CFE3D329FE747B00AD4A12 /* RecordButton */ = {
+			isa = PBXGroup;
+			children = (
+				E6CFE3D429FE748C00AD4A12 /* RecordButtonContentView.swift */,
+				E6CFE3D629FE75D100AD4A12 /* RecordButtonViewController.swift */,
+			);
+			path = RecordButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,7 +418,9 @@
 				E62BBB4129E97F86006EF52B /* SceneDelegate.swift in Sources */,
 				E62BBB5B29E9807B006EF52B /* OutlineViewController.swift in Sources */,
 				E62BBB5D29E98091006EF52B /* OutlineViewController+DataSource.swift in Sources */,
+				E6CFE3D529FE748C00AD4A12 /* RecordButtonContentView.swift in Sources */,
 				E658280429F1668700792C57 /* Button3DViewController.swift in Sources */,
+				E6CFE3D729FE75D100AD4A12 /* RecordButtonViewController.swift in Sources */,
 				E62BBB7329E98204006EF52B /* StrokeProgressBarViewController.swift in Sources */,
 				E66FF90229EFEA85003C81B4 /* ColorSelectorContentView.swift in Sources */,
 				E62BBB6B29E9818D006EF52B /* CircleProgressViewController.swift in Sources */,

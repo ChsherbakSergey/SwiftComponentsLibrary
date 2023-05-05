@@ -54,7 +54,6 @@ public final class ToastView: UIView {
         setupView()
         setupSubviews()
         setupLayout()
-        setupShadow()
     }
 
     required init?(coder: NSCoder) {
@@ -121,15 +120,6 @@ public final class ToastView: UIView {
             verticalStackView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -24),
             verticalStackView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -12)
         ])
-    }
-    
-    private func setupShadow() {
-        layer.shadowColor = UIColor.black.cgColor
-        layer.shadowOpacity = 0.1
-        layer.shadowOffset = .zero
-        layer.shadowRadius = 8
-        layer.shouldRasterize = true
-        layer.rasterizationScale = UIScreen.main.scale
     }
 }
 

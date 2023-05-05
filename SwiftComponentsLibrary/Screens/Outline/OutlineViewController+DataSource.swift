@@ -59,6 +59,10 @@ extension OutlineViewController {
                     OutlineItem(
                         title: "3D Button",
                         viewController: Button3DViewController.self
+                    ),
+                    OutlineItem(
+                        title: "Record Button",
+                        viewController: RecordButtonViewController.self
                     )
                 ]
             ),
