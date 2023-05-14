@@ -28,11 +28,16 @@ final class ColorSelectorViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupNavigationBar()
         setupGestures()
         setupTargets()
     }
     
     // MARK: - Setup
+    
+    private func setupNavigationBar() {
+        navigationItem.largeTitleDisplayMode = .never
+    }
     
     private func setupGestures() {
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(didTapSelectorView))

@@ -27,10 +27,15 @@ final class RangeSliderViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupNavigationBar()
         setupTargets()
     }
     
     // MARK: - Setup
+    
+    private func setupNavigationBar() {
+        navigationItem.largeTitleDisplayMode = .never
+    }
     
     private func setupTargets() {}
     

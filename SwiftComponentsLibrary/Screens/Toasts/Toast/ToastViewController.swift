@@ -28,10 +28,15 @@ final class ToastViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupNavigationBar()
         setupTargets()
     }
     
     // MARK: - Setup
+    
+    private func setupNavigationBar() {
+        navigationItem.largeTitleDisplayMode = .never
+    }
 
     private func setupTargets() {
         contentView.autohidesSegmentedControl.addTarget(self, action: #selector(autohidesDidChange(_:)), for: .valueChanged)

@@ -27,10 +27,15 @@ final class ProgressBarViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupNavigationBar()
         setupTargets()
     }
 
     // MARK: - Setup
+    
+    private func setupNavigationBar() {
+        navigationItem.largeTitleDisplayMode = .never
+    }
 
     private func setupTargets() {
         contentView.trackTintColorSegmentedControl.addTarget(self, action: #selector(trackTintColorDidChange(_:)), for: .valueChanged)

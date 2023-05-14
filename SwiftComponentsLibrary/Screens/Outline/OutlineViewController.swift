@@ -30,11 +30,16 @@ final class OutlineViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupNavigationBar()
         setupDelegates()
         applySnapshot(animatingDifferences: false)
     }
 
     // MARK: - Setup
+    
+    private func setupNavigationBar() {
+        navigationController?.navigationBar.prefersLargeTitles = true
+    }
 
     private func setupDelegates() {
         contentView.collectionView.delegate = self

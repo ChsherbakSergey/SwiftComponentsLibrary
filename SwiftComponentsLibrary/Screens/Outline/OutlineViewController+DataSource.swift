@@ -63,6 +63,19 @@ extension OutlineViewController {
                     OutlineItem(
                         title: "Record Button",
                         viewController: RecordButtonViewController.self
+                    ),
+                    OutlineItem(
+                        title: "Slide Button",
+                        viewController: SlideButtonViewController.self
+                    )
+                ]
+            ),
+            OutlineItem(
+                title: "Exploration",
+                subitems: [
+                    OutlineItem(
+                        title: "Mini Player View",
+                        viewController: MiniPlayerTabBarController.self
                     )
                 ]
             ),
@@ -102,15 +115,6 @@ extension OutlineViewController {
                     OutlineItem(
                         title: "Color Selector View",
                         viewController: ColorSelectorViewController.self
-                    )
-                ]
-            ),
-            OutlineItem(
-                title: "Sliders",
-                subitems: [
-                    OutlineItem(
-                        title: "Range Slider",
-                        viewController: RangeSliderViewController.self
                     )
                 ]
             ),

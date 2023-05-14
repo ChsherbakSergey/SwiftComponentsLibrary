@@ -28,10 +28,15 @@ final class CarouselPickerViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupNavigationBar()
         setupTargets()
     }
     
     // MARK: - Setup
+    
+    private func setupNavigationBar() {
+        navigationItem.largeTitleDisplayMode = .never
+    }
     
     private func setupTargets() {
         contentView.baseSelectedForegroundColorSegmentedControl.addTarget(self, action: #selector(baseSelectedForegroundColorDidChange(_:)), for: .valueChanged)

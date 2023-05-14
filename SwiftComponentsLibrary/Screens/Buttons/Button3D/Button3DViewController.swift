@@ -27,10 +27,15 @@ final class Button3DViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupNavigationBar()
         setupTargets()
     }
     
     // MARK: - Setup
+    
+    private func setupNavigationBar() {
+        navigationItem.largeTitleDisplayMode = .never
+    }
     
     private func setupTargets() {
         contentView.styleSegmentedControl.addTarget(self, action: #selector(styleDidChange(_:)), for: .valueChanged)

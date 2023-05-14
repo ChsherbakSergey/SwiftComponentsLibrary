@@ -28,10 +28,15 @@ final class RecordButtonViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupNavigationBar()
         setupTargets()
     }
     
     // MARK: - Setup
+    
+    private func setupNavigationBar() {
+        navigationItem.largeTitleDisplayMode = .never
+    }
     
     private func setupTargets() {
         contentView.button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
@@ -46,7 +51,5 @@ final class RecordButtonViewController: UIViewController {
             contentView.button.startRecording()
         }
         isRecording.toggle()
-        
-        print("isRecording: \(isRecording)")
     }
 }

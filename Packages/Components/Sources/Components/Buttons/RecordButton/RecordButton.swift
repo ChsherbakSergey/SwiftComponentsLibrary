@@ -30,13 +30,13 @@ public final class RecordButton: UIControl {
     
     public var borderColor: UIColor = .white {
         didSet {
-            
+            #warning("Finish")
         }
     }
     
     public var foregroundColor: UIColor = .systemRed {
         didSet {
-            
+            #warning("Finish")
         }
     }
     
@@ -62,7 +62,7 @@ public final class RecordButton: UIControl {
         fatalError("init(coder:) has not been implemented")
     }
     
-    // MARK: - Public Properties
+    // MARK: - Public Methods
     
     public func startRecording() {
         buttonWidthConstraint.constant = 24
