@@ -126,6 +126,19 @@ extension OutlineViewController {
                         viewController: ToastViewController.self
                     )
                 ]
+            ),
+            OutlineItem(
+                title: "Transitions",
+                subitems: [
+                    OutlineItem(
+                        title: "BottomSheet Transition",
+                        viewController: BottomSheetTransitionViewController.self
+                    ),
+                    OutlineItem(
+                        title: "Slide Transition",
+                        viewController: SlideTransitionViewController.self
+                    )
+                ]
             )
         ]
     }

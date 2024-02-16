@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E61A303F2B750EF00081A9A7 /* BottomSheetTransitionContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61A303E2B750EF00081A9A7 /* BottomSheetTransitionContentView.swift */; };
+		E61A30412B7510800081A9A7 /* BottomSheetTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61A30402B7510800081A9A7 /* BottomSheetTransitionViewController.swift */; };
 		E62BBB3F29E97F86006EF52B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB3E29E97F86006EF52B /* AppDelegate.swift */; };
 		E62BBB4129E97F86006EF52B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB4029E97F86006EF52B /* SceneDelegate.swift */; };
 		E62BBB4829E97F87006EF52B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E62BBB4729E97F87006EF52B /* Assets.xcassets */; };
@@ -35,6 +37,10 @@
 		E66FF8FF29EE9DC2003C81B4 /* CarouselPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66FF8FE29EE9DC2003C81B4 /* CarouselPickerViewController.swift */; };
 		E66FF90229EFEA85003C81B4 /* ColorSelectorContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66FF90129EFEA85003C81B4 /* ColorSelectorContentView.swift */; };
 		E66FF90429EFEB9F003C81B4 /* ColorSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66FF90329EFEB9F003C81B4 /* ColorSelectorViewController.swift */; };
+		E6754FCF2B7B847100702D57 /* SlideTransitionContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6754FCE2B7B847100702D57 /* SlideTransitionContentView.swift */; };
+		E6754FD12B7B887000702D57 /* SlideTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6754FD02B7B887000702D57 /* SlideTransitionViewController.swift */; };
+		E6754FD32B7B88AC00702D57 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6754FD22B7B88AC00702D57 /* BottomSheetViewController.swift */; };
+		E6754FD52B7B88DE00702D57 /* SlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6754FD42B7B88DE00702D57 /* SlideViewController.swift */; };
 		E68FF2C729EB19A100296CAA /* RangeSliderContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68FF2C629EB19A100296CAA /* RangeSliderContentView.swift */; };
 		E68FF2C929EB1A7400296CAA /* RangeSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68FF2C829EB1A7400296CAA /* RangeSliderViewController.swift */; };
 		E6CEBEED2A0657EC00B1225F /* MiniPlayerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CEBEEC2A0657EC00B1225F /* MiniPlayerContentView.swift */; };
@@ -45,6 +51,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E61A303E2B750EF00081A9A7 /* BottomSheetTransitionContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetTransitionContentView.swift; sourceTree = "<group>"; };
+		E61A30402B7510800081A9A7 /* BottomSheetTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetTransitionViewController.swift; sourceTree = "<group>"; };
 		E62BBB3B29E97F86006EF52B /* SwiftComponentsLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftComponentsLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E62BBB3E29E97F86006EF52B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E62BBB4029E97F86006EF52B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +83,10 @@
 		E66FF8FE29EE9DC2003C81B4 /* CarouselPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselPickerViewController.swift; sourceTree = "<group>"; };
 		E66FF90129EFEA85003C81B4 /* ColorSelectorContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSelectorContentView.swift; sourceTree = "<group>"; };
 		E66FF90329EFEB9F003C81B4 /* ColorSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSelectorViewController.swift; sourceTree = "<group>"; };
+		E6754FCE2B7B847100702D57 /* SlideTransitionContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideTransitionContentView.swift; sourceTree = "<group>"; };
+		E6754FD02B7B887000702D57 /* SlideTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideTransitionViewController.swift; sourceTree = "<group>"; };
+		E6754FD22B7B88AC00702D57 /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
+		E6754FD42B7B88DE00702D57 /* SlideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideViewController.swift; sourceTree = "<group>"; };
 		E68FF2C629EB19A100296CAA /* RangeSliderContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSliderContentView.swift; sourceTree = "<group>"; };
 		E68FF2C829EB1A7400296CAA /* RangeSliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSliderViewController.swift; sourceTree = "<group>"; };
 		E6CEBEEC2A0657EC00B1225F /* MiniPlayerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +114,25 @@
 				E66FF90029EFEA70003C81B4 /* ColorSelectorView */,
 			);
 			path = Selectors;
+			sourceTree = "<group>";
+		};
+		E61A303C2B750E830081A9A7 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				E6754FCD2B7B846300702D57 /* Slide */,
+				E61A303D2B750EA50081A9A7 /* BottomSheet */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		E61A303D2B750EA50081A9A7 /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				E61A303E2B750EF00081A9A7 /* BottomSheetTransitionContentView.swift */,
+				E61A30402B7510800081A9A7 /* BottomSheetTransitionViewController.swift */,
+				E6754FD22B7B88AC00702D57 /* BottomSheetViewController.swift */,
+			);
+			path = BottomSheet;
 			sourceTree = "<group>";
 		};
 		E62BBB3229E97F86006EF52B = {
@@ -154,6 +185,7 @@
 				E603CB0D29F13739004172AA /* Selectors */,
 				E68FF2C429EB198100296CAA /* Sliders */,
 				E62BBB7929E9E4E6006EF52B /* Toasts */,
+				E61A303C2B750E830081A9A7 /* Transitions */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -335,6 +367,16 @@
 			path = ColorSelectorView;
 			sourceTree = "<group>";
 		};
+		E6754FCD2B7B846300702D57 /* Slide */ = {
+			isa = PBXGroup;
+			children = (
+				E6754FCE2B7B847100702D57 /* SlideTransitionContentView.swift */,
+				E6754FD02B7B887000702D57 /* SlideTransitionViewController.swift */,
+				E6754FD42B7B88DE00702D57 /* SlideViewController.swift */,
+			);
+			path = Slide;
+			sourceTree = "<group>";
+		};
 		E68FF2C429EB198100296CAA /* Sliders */ = {
 			isa = PBXGroup;
 			children = (
@@ -454,12 +496,18 @@
 			files = (
 				E66FF8FD29EE9C56003C81B4 /* CarouselPickerContentView.swift in Sources */,
 				E62BBB3F29E97F86006EF52B /* AppDelegate.swift in Sources */,
+				E61A30412B7510800081A9A7 /* BottomSheetTransitionViewController.swift in Sources */,
 				E62BBB4129E97F86006EF52B /* SceneDelegate.swift in Sources */,
 				E62BBB5B29E9807B006EF52B /* OutlineViewController.swift in Sources */,
+				E61A303F2B750EF00081A9A7 /* BottomSheetTransitionContentView.swift in Sources */,
 				E62BBB5D29E98091006EF52B /* OutlineViewController+DataSource.swift in Sources */,
 				E6CFE3D529FE748C00AD4A12 /* RecordButtonContentView.swift in Sources */,
 				E642CFB52A0FD79700F71921 /* SlideButtonViewController.swift in Sources */,
+				E6754FD12B7B887000702D57 /* SlideTransitionViewController.swift in Sources */,
 				E658280429F1668700792C57 /* Button3DViewController.swift in Sources */,
+				E6754FCF2B7B847100702D57 /* SlideTransitionContentView.swift in Sources */,
+				E6754FD52B7B88DE00702D57 /* SlideViewController.swift in Sources */,
+				E6754FD32B7B88AC00702D57 /* BottomSheetViewController.swift in Sources */,
 				E6CFE3D729FE75D100AD4A12 /* RecordButtonViewController.swift in Sources */,
 				E62BBB7329E98204006EF52B /* StrokeProgressBarViewController.swift in Sources */,
 				E66FF90229EFEA85003C81B4 /* ColorSelectorContentView.swift in Sources */,

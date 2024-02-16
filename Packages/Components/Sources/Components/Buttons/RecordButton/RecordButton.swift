@@ -30,13 +30,15 @@ public final class RecordButton: UIControl {
     
     public var borderColor: UIColor = .white {
         didSet {
-            #warning("Finish")
+            borderView.layer.borderColor = borderColor.cgColor
+            setNeedsDisplay()
         }
     }
     
     public var foregroundColor: UIColor = .systemRed {
         didSet {
-            #warning("Finish")
+            button.backgroundColor = foregroundColor
+            setNeedsDisplay()
         }
     }
     
