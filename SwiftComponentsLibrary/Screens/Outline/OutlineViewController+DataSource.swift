@@ -80,6 +80,15 @@ extension OutlineViewController {
                 ]
             ),
             OutlineItem(
+                title: "Page Controls",
+                subitems: [
+                    OutlineItem(
+                        title: "Flow Page Control",
+                        viewController: FlowViewController.self
+                    )
+                ]
+            ),
+            OutlineItem(
                 title: "Pickers",
                 subitems: [
                     OutlineItem(
@@ -135,8 +144,20 @@ extension OutlineViewController {
                         viewController: BottomSheetTransitionViewController.self
                     ),
                     OutlineItem(
+                        title: "Flip Transition",
+                        viewController: FlipTransitionViewController.self
+                    ),
+                    OutlineItem(
+                        title: "Scale Transition",
+                        viewController: ScaleTransitionViewController.self
+                    ),
+                    OutlineItem(
                         title: "Slide Transition",
                         viewController: SlideTransitionViewController.self
+                    ),
+                    OutlineItem(
+                        title: "Story Transition",
+                        viewController: StoryTransitionViewController.self
                     )
                 ]
             )

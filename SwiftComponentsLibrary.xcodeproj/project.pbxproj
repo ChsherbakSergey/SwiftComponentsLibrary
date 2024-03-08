@@ -29,6 +29,10 @@
 		E62BBB7E29E9E53E006EF52B /* ToastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BBB7D29E9E53E006EF52B /* ToastViewController.swift */; };
 		E642CFB32A0FD6D600F71921 /* SlideButtonContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E642CFB22A0FD6D600F71921 /* SlideButtonContentView.swift */; };
 		E642CFB52A0FD79700F71921 /* SlideButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E642CFB42A0FD79700F71921 /* SlideButtonViewController.swift */; };
+		E64EB6232B8FE85400560B48 /* FlowPageControlContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64EB6222B8FE85400560B48 /* FlowPageControlContentView.swift */; };
+		E64EB6252B8FE85D00560B48 /* FlowPageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64EB6242B8FE85D00560B48 /* FlowPageControlViewController.swift */; };
+		E64EB6272B90B43600560B48 /* FlowPageControlPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64EB6262B90B43600560B48 /* FlowPageControlPageViewController.swift */; };
+		E64EB6292B90B6AF00560B48 /* FlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64EB6282B90B6AF00560B48 /* FlowViewController.swift */; };
 		E658280229F1666C00792C57 /* Button3DContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658280129F1666C00792C57 /* Button3DContentView.swift */; };
 		E658280429F1668700792C57 /* Button3DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658280329F1668700792C57 /* Button3DViewController.swift */; };
 		E658280729F2B0A100792C57 /* StepProgressBarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658280629F2B0A100792C57 /* StepProgressBarContentView.swift */; };
@@ -41,6 +45,19 @@
 		E6754FD12B7B887000702D57 /* SlideTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6754FD02B7B887000702D57 /* SlideTransitionViewController.swift */; };
 		E6754FD32B7B88AC00702D57 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6754FD22B7B88AC00702D57 /* BottomSheetViewController.swift */; };
 		E6754FD52B7B88DE00702D57 /* SlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6754FD42B7B88DE00702D57 /* SlideViewController.swift */; };
+		E6754FD82B7FA01A00702D57 /* FlipTransitionContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6754FD72B7FA01A00702D57 /* FlipTransitionContentView.swift */; };
+		E6754FDA2B7FA02800702D57 /* FlipTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6754FD92B7FA02800702D57 /* FlipTransitionViewController.swift */; };
+		E6754FDC2B7FA03C00702D57 /* FlipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6754FDB2B7FA03C00702D57 /* FlipViewController.swift */; };
+		E6754FDF2B815A0600702D57 /* ScaleTransitionContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6754FDE2B815A0600702D57 /* ScaleTransitionContentView.swift */; };
+		E6754FE12B815A1000702D57 /* ScaleTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6754FE02B815A1000702D57 /* ScaleTransitionViewController.swift */; };
+		E6754FE32B815A1900702D57 /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6754FE22B815A1900702D57 /* ScaleViewController.swift */; };
+		E6754FE52B8383F300702D57 /* ScaleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6754FE42B8383F300702D57 /* ScaleContentView.swift */; };
+		E6754FE82B86206B00702D57 /* StoryTransitionContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6754FE72B86206B00702D57 /* StoryTransitionContentView.swift */; };
+		E6754FEA2B86224900702D57 /* StoryTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6754FE92B86224900702D57 /* StoryTransitionViewController.swift */; };
+		E6754FEC2B8624C400702D57 /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6754FEB2B8624C400702D57 /* StoryCollectionViewCell.swift */; };
+		E6754FEE2B8626F400702D57 /* StoryTransitionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6754FED2B8626F400702D57 /* StoryTransitionDataSource.swift */; };
+		E6754FF22B862C0B00702D57 /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6754FF12B862C0B00702D57 /* StoryViewController.swift */; };
+		E6754FF42B8630FC00702D57 /* StoryContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6754FF32B8630FC00702D57 /* StoryContentView.swift */; };
 		E68FF2C729EB19A100296CAA /* RangeSliderContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68FF2C629EB19A100296CAA /* RangeSliderContentView.swift */; };
 		E68FF2C929EB1A7400296CAA /* RangeSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68FF2C829EB1A7400296CAA /* RangeSliderViewController.swift */; };
 		E6CEBEED2A0657EC00B1225F /* MiniPlayerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CEBEEC2A0657EC00B1225F /* MiniPlayerContentView.swift */; };
@@ -75,6 +92,10 @@
 		E62BBB7D29E9E53E006EF52B /* ToastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastViewController.swift; sourceTree = "<group>"; };
 		E642CFB22A0FD6D600F71921 /* SlideButtonContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideButtonContentView.swift; sourceTree = "<group>"; };
 		E642CFB42A0FD79700F71921 /* SlideButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideButtonViewController.swift; sourceTree = "<group>"; };
+		E64EB6222B8FE85400560B48 /* FlowPageControlContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowPageControlContentView.swift; sourceTree = "<group>"; };
+		E64EB6242B8FE85D00560B48 /* FlowPageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowPageControlViewController.swift; sourceTree = "<group>"; };
+		E64EB6262B90B43600560B48 /* FlowPageControlPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowPageControlPageViewController.swift; sourceTree = "<group>"; };
+		E64EB6282B90B6AF00560B48 /* FlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowViewController.swift; sourceTree = "<group>"; };
 		E658280129F1666C00792C57 /* Button3DContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button3DContentView.swift; sourceTree = "<group>"; };
 		E658280329F1668700792C57 /* Button3DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button3DViewController.swift; sourceTree = "<group>"; };
 		E658280629F2B0A100792C57 /* StepProgressBarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepProgressBarContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +108,19 @@
 		E6754FD02B7B887000702D57 /* SlideTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideTransitionViewController.swift; sourceTree = "<group>"; };
 		E6754FD22B7B88AC00702D57 /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
 		E6754FD42B7B88DE00702D57 /* SlideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideViewController.swift; sourceTree = "<group>"; };
+		E6754FD72B7FA01A00702D57 /* FlipTransitionContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipTransitionContentView.swift; sourceTree = "<group>"; };
+		E6754FD92B7FA02800702D57 /* FlipTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipTransitionViewController.swift; sourceTree = "<group>"; };
+		E6754FDB2B7FA03C00702D57 /* FlipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipViewController.swift; sourceTree = "<group>"; };
+		E6754FDE2B815A0600702D57 /* ScaleTransitionContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleTransitionContentView.swift; sourceTree = "<group>"; };
+		E6754FE02B815A1000702D57 /* ScaleTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleTransitionViewController.swift; sourceTree = "<group>"; };
+		E6754FE22B815A1900702D57 /* ScaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleViewController.swift; sourceTree = "<group>"; };
+		E6754FE42B8383F300702D57 /* ScaleContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleContentView.swift; sourceTree = "<group>"; };
+		E6754FE72B86206B00702D57 /* StoryTransitionContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTransitionContentView.swift; sourceTree = "<group>"; };
+		E6754FE92B86224900702D57 /* StoryTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTransitionViewController.swift; sourceTree = "<group>"; };
+		E6754FEB2B8624C400702D57 /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		E6754FED2B8626F400702D57 /* StoryTransitionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTransitionDataSource.swift; sourceTree = "<group>"; };
+		E6754FF12B862C0B00702D57 /* StoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
+		E6754FF32B8630FC00702D57 /* StoryContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryContentView.swift; sourceTree = "<group>"; };
 		E68FF2C629EB19A100296CAA /* RangeSliderContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSliderContentView.swift; sourceTree = "<group>"; };
 		E68FF2C829EB1A7400296CAA /* RangeSliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSliderViewController.swift; sourceTree = "<group>"; };
 		E6CEBEEC2A0657EC00B1225F /* MiniPlayerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerContentView.swift; sourceTree = "<group>"; };
@@ -119,6 +153,9 @@
 		E61A303C2B750E830081A9A7 /* Transitions */ = {
 			isa = PBXGroup;
 			children = (
+				E6754FE62B86204200702D57 /* Story */,
+				E6754FDD2B8159EE00702D57 /* Scale */,
+				E6754FD62B7FA00400702D57 /* Flip */,
 				E6754FCD2B7B846300702D57 /* Slide */,
 				E61A303D2B750EA50081A9A7 /* BottomSheet */,
 			);
@@ -180,6 +217,7 @@
 				E62BBB5E29E980A3006EF52B /* ActivityIndicators */,
 				E65827FF29F1665200792C57 /* Buttons */,
 				E6CEBEEA2A0657D800B1225F /* Exploration */,
+				E64EB6212B8FE83B00560B48 /* PageControls */,
 				E66FF8FA29EE98A6003C81B4 /* Pickers */,
 				E62BBB6429E98127006EF52B /* Progresses */,
 				E603CB0D29F13739004172AA /* Selectors */,
@@ -313,6 +351,17 @@
 			path = SlideButton;
 			sourceTree = "<group>";
 		};
+		E64EB6212B8FE83B00560B48 /* PageControls */ = {
+			isa = PBXGroup;
+			children = (
+				E64EB6222B8FE85400560B48 /* FlowPageControlContentView.swift */,
+				E64EB6242B8FE85D00560B48 /* FlowPageControlViewController.swift */,
+				E64EB6262B90B43600560B48 /* FlowPageControlPageViewController.swift */,
+				E64EB6282B90B6AF00560B48 /* FlowViewController.swift */,
+			);
+			path = PageControls;
+			sourceTree = "<group>";
+		};
 		E65827FF29F1665200792C57 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
@@ -375,6 +424,56 @@
 				E6754FD42B7B88DE00702D57 /* SlideViewController.swift */,
 			);
 			path = Slide;
+			sourceTree = "<group>";
+		};
+		E6754FD62B7FA00400702D57 /* Flip */ = {
+			isa = PBXGroup;
+			children = (
+				E6754FD72B7FA01A00702D57 /* FlipTransitionContentView.swift */,
+				E6754FD92B7FA02800702D57 /* FlipTransitionViewController.swift */,
+				E6754FDB2B7FA03C00702D57 /* FlipViewController.swift */,
+			);
+			path = Flip;
+			sourceTree = "<group>";
+		};
+		E6754FDD2B8159EE00702D57 /* Scale */ = {
+			isa = PBXGroup;
+			children = (
+				E6754FDE2B815A0600702D57 /* ScaleTransitionContentView.swift */,
+				E6754FE02B815A1000702D57 /* ScaleTransitionViewController.swift */,
+				E6754FE22B815A1900702D57 /* ScaleViewController.swift */,
+				E6754FE42B8383F300702D57 /* ScaleContentView.swift */,
+			);
+			path = Scale;
+			sourceTree = "<group>";
+		};
+		E6754FE62B86204200702D57 /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				E6754FF02B862BEC00702D57 /* PresentedViewController */,
+				E6754FEF2B862BDE00702D57 /* PresentingViewController */,
+			);
+			path = Story;
+			sourceTree = "<group>";
+		};
+		E6754FEF2B862BDE00702D57 /* PresentingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E6754FE72B86206B00702D57 /* StoryTransitionContentView.swift */,
+				E6754FE92B86224900702D57 /* StoryTransitionViewController.swift */,
+				E6754FEB2B8624C400702D57 /* StoryCollectionViewCell.swift */,
+				E6754FED2B8626F400702D57 /* StoryTransitionDataSource.swift */,
+			);
+			path = PresentingViewController;
+			sourceTree = "<group>";
+		};
+		E6754FF02B862BEC00702D57 /* PresentedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E6754FF12B862C0B00702D57 /* StoryViewController.swift */,
+				E6754FF32B8630FC00702D57 /* StoryContentView.swift */,
+			);
+			path = PresentedViewController;
 			sourceTree = "<group>";
 		};
 		E68FF2C429EB198100296CAA /* Sliders */ = {
@@ -494,17 +593,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6754FD82B7FA01A00702D57 /* FlipTransitionContentView.swift in Sources */,
 				E66FF8FD29EE9C56003C81B4 /* CarouselPickerContentView.swift in Sources */,
 				E62BBB3F29E97F86006EF52B /* AppDelegate.swift in Sources */,
+				E6754FDC2B7FA03C00702D57 /* FlipViewController.swift in Sources */,
+				E6754FE82B86206B00702D57 /* StoryTransitionContentView.swift in Sources */,
 				E61A30412B7510800081A9A7 /* BottomSheetTransitionViewController.swift in Sources */,
 				E62BBB4129E97F86006EF52B /* SceneDelegate.swift in Sources */,
+				E6754FE12B815A1000702D57 /* ScaleTransitionViewController.swift in Sources */,
 				E62BBB5B29E9807B006EF52B /* OutlineViewController.swift in Sources */,
+				E6754FEE2B8626F400702D57 /* StoryTransitionDataSource.swift in Sources */,
 				E61A303F2B750EF00081A9A7 /* BottomSheetTransitionContentView.swift in Sources */,
+				E6754FDF2B815A0600702D57 /* ScaleTransitionContentView.swift in Sources */,
+				E6754FE52B8383F300702D57 /* ScaleContentView.swift in Sources */,
 				E62BBB5D29E98091006EF52B /* OutlineViewController+DataSource.swift in Sources */,
 				E6CFE3D529FE748C00AD4A12 /* RecordButtonContentView.swift in Sources */,
 				E642CFB52A0FD79700F71921 /* SlideButtonViewController.swift in Sources */,
 				E6754FD12B7B887000702D57 /* SlideTransitionViewController.swift in Sources */,
+				E6754FEC2B8624C400702D57 /* StoryCollectionViewCell.swift in Sources */,
 				E658280429F1668700792C57 /* Button3DViewController.swift in Sources */,
+				E6754FDA2B7FA02800702D57 /* FlipTransitionViewController.swift in Sources */,
 				E6754FCF2B7B847100702D57 /* SlideTransitionContentView.swift in Sources */,
 				E6754FD52B7B88DE00702D57 /* SlideViewController.swift in Sources */,
 				E6754FD32B7B88AC00702D57 /* BottomSheetViewController.swift in Sources */,
@@ -512,25 +620,33 @@
 				E62BBB7329E98204006EF52B /* StrokeProgressBarViewController.swift in Sources */,
 				E66FF90229EFEA85003C81B4 /* ColorSelectorContentView.swift in Sources */,
 				E62BBB6B29E9818D006EF52B /* CircleProgressViewController.swift in Sources */,
+				E6754FEA2B86224900702D57 /* StoryTransitionViewController.swift in Sources */,
 				E68FF2C929EB1A7400296CAA /* RangeSliderViewController.swift in Sources */,
 				E62BBB7C29E9E522006EF52B /* ToastContentView.swift in Sources */,
+				E6754FF22B862C0B00702D57 /* StoryViewController.swift in Sources */,
 				E658280229F1666C00792C57 /* Button3DContentView.swift in Sources */,
 				E62BBB7129E981E2006EF52B /* StrokeProgressBarContentView.swift in Sources */,
 				E658280929F2B18100792C57 /* StepProgressBarViewController.swift in Sources */,
 				E62BBB6F29E981B3006EF52B /* ProgressBarViewController.swift in Sources */,
 				E62BBB6329E98101006EF52B /* GrowingCircleActivityIndicatorViewController.swift in Sources */,
 				E6CEBEED2A0657EC00B1225F /* MiniPlayerContentView.swift in Sources */,
+				E6754FE32B815A1900702D57 /* ScaleViewController.swift in Sources */,
 				E62BBB7E29E9E53E006EF52B /* ToastViewController.swift in Sources */,
 				E6CEBEF12A065ADC00B1225F /* MiniPlayerTabBarController.swift in Sources */,
 				E62BBB6129E980EB006EF52B /* GrowingCircleActivityIndicatorContentView.swift in Sources */,
 				E6CEBEEF2A0658BA00B1225F /* MiniPlayerViewController.swift in Sources */,
+				E64EB6272B90B43600560B48 /* FlowPageControlPageViewController.swift in Sources */,
+				E64EB6232B8FE85400560B48 /* FlowPageControlContentView.swift in Sources */,
+				E6754FF42B8630FC00702D57 /* StoryContentView.swift in Sources */,
 				E62BBB5929E98060006EF52B /* OutlineView.swift in Sources */,
 				E66FF8FF29EE9DC2003C81B4 /* CarouselPickerViewController.swift in Sources */,
 				E66FF90429EFEB9F003C81B4 /* ColorSelectorViewController.swift in Sources */,
 				E68FF2C729EB19A100296CAA /* RangeSliderContentView.swift in Sources */,
 				E62BBB6929E9816F006EF52B /* CircleProgressContentView.swift in Sources */,
+				E64EB6252B8FE85D00560B48 /* FlowPageControlViewController.swift in Sources */,
 				E658280729F2B0A100792C57 /* StepProgressBarContentView.swift in Sources */,
 				E642CFB32A0FD6D600F71921 /* SlideButtonContentView.swift in Sources */,
+				E64EB6292B90B6AF00560B48 /* FlowViewController.swift in Sources */,
 				E62BBB6D29E981A9006EF52B /* ProgressBarContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

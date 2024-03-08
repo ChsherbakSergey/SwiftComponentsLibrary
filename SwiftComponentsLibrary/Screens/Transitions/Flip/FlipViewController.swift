@@ -2,7 +2,7 @@
 
 import UIKit
 
-final class BottomSheetViewController: UIViewController {
+final class FlipViewController: UIViewController {
     
     // MARK: - UI Components
     
